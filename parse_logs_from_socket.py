@@ -84,4 +84,4 @@ if __name__ == '__main__':
 
     my_main()
 
-    logger.info('DONE processing parse_logs_from_socket.py')
+    logger.info('DONE processing parse_logs_from_socket.py') 
