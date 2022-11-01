@@ -95,3 +95,4 @@ def distinct_responsecodes_browsers(accessLogsRDD):
     uniqueBrowsers = sorted(uniqueBrowsersRDD.collect())
     logger.debug(f'Browsers are {str(uniqueBrowsers):s}')
     return uniqueResponseCodes, uniqueBrowsers
+ 
