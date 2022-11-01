@@ -64,7 +64,7 @@ def my_main():
     
     logger.info('parsing logs')
     parsedLogsRDD1 = logFileRDD.map(pE.parseApacheLogLine).cache()
-    if logger.isEnabledFor(logging.DEBUG):
+    if logger.isEnabledFor(logging.DEBUG): 
         parsedLogsRDD1.take(3)
 
     logger.info('accessing failed logs')
